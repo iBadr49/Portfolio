@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+    <title>Badr Amara</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"> Portfolio</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#languages" class="nav__link">Languages</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home-data">
+                <h1 class="home-title">
+                    Hello,<br />I'm <span class="home-title-color">Badr</span> <br>
+                    <span id="typewriter" class="typewriter"></span>
+                </h1>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section " id="about">
+            <h2 class="section-title">About <span class="home-title-color">Me</span></h2>
+
+            <div class="about__container">
+                <div class="about__img">
+                    <img src="/assets/me.jpg" alt="Mijn image">
+                </div>
+                <div>
+                    <p class="about__text">
+                        I'm Badr Amara, a 21-year-old Frontend Development and Design student at HVA. Driven by my
+                        passion for technology, I aspire to become an expert in Frontend. While I'm not yet where I want to
+                        be, I'm dedicated to continuous improvement. Focused on absorbing everything about frontend
+                        development, I specialize in building websites and refining user experiences. My goal is to
+                        excel in crafting innovative, user-friendly digital solutions, laying a robust foundation for my
+                        future in web development.
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="text">
+                <ul class="topic">
+                    <li> Html </li>
+                    <li> Css </li>
+                    <li> Sveltekit </li>
+                    <li> Hygraph (CMS) </li>
+                    <li> Node.js </li>
+                    <li> JavaScript </li>
+                    <li> Nuxt </li>
+                    <li> Sanity (CMS)</li>
+                    <li> Prismic </li>
+                </ul>
+        </section>
+        </section>
+
+        <!-- Experience -->
+        <section class="experience-section" id="experience">
+            <section class="work-section">
+                <h2 class="section-title">Projects</h2>
+                <section class="text" id="work">
+                    <h3> <a href="https://github.com/iBadr49/performance-vinimini"> Vinimini</a> </h3>
+                    <p>
+                        I have built a website for Vinimini that sells products to prevent early allergen exposure.
+                        Vinimini plans to expand their product range in the future to include more allergens and aims to
+                        grow their presence throughout Europe
+                    </p>
+
+                    <h3> <a href="https://minions-chat.adaptable.app/">Chatroom</a> </h3>
+
+                    <p> I have also developed a real-time chatroom using socket.io. </p>
+
+                    <h3> <a href="https://github.com/iBadr49/your-tribe-for-life-profile-card">Profil card </a> </h3>
+
+                    <p> I created my first and simpel business card using Prismic and SvelteKit to explore how they
+                        collaborate and gain a better understanding of their functionalities. </p>
+
+                    <h3> <a href="https://buurtcampus-oost-kappa.vercel.app/">Plantswap</a> </h3>
+                    <p>
+                        For Stekjesbieb, we have developed an excellent plant swap website. Visitors can browse through
+                        plants and learn more about the plant swap initiative.
+                    </p>
+                </section>
+            </section>
+        </section>
+
+        <!-- Education -->
+        <section class="education-section" id="education">
+            <h2 class="section-title">Education</h2>
+            <section class="text">
+                <h3>Laymoune Lyceum (Marokko)</h3>
+                <p> Havo | ... - 2018</p>
+
+                <h3> Montessori college</h3>
+                <p> Taal klas | 2018 - 2019</p>
+
+                <h3>Hogeschool van Amsterdam</h3>
+                <p>Taal & schakel traject | 2019 - 2020</p>
+                <p>Associate degree | 2021 - heden</p>
+            </section>
+        </section>
+
+        <!-- Languages -->
+        <section class="language" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <div class="text">
+                <li>Dutch</li>
+                <li>French</li>
+                <li>English</li>
+                <li>Arabic</li>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer-title">Badr Amara</p>
+        <div class="footer-social">
+            <a href="https://github.com/iBadr49" class="footer-icon"><i class="bx bxl-github"></i></a>
+            <a href="#" class="footer-icon"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" class="footer-icon"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <p class="footer-copy">| iBadr49</p>
+    </footer>
+
+    <!-- Boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- Scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Script -->
+    <script src="/script.js"></script>
+
+    <!-- BackToTop Button -->
+    <a href="#" id="back-to-top">↑</a>
+</body>
+
+</html>
