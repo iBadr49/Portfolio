@@ -66,6 +66,7 @@ h4 {
 
 @media screen and (max-width: 767px) {
   .nav__menu {
+    margin-top: 10px;
     position: fixed;
     top: 3rem;
     right: -100%;
