@@ -11,8 +11,8 @@
 :root {
   --white: #fff;
   --black: black;
-  --blueberry: #2D080A;
-  --cerulean: #F5853F;
+  --Belladonna: #2D080A;
+  --Goku-orange: #F5853F;
 }
 
 ul {
@@ -71,7 +71,7 @@ header {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--blueberry);
+    background-color: var(--Belladonna);
     transition: 0.5s;
     z-index: 1;
   }
@@ -97,15 +97,15 @@ header {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--cerulean);
+  background-color: var(--Goku-orange);
 }
 
 .nav__logo {
-  color: var(--blueberry);
+  color: var(--Belladonna);
 }
 
 .nav__toggle {
-  color: var(--blueberry);
+  color: var(--Belladonna);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -118,7 +118,7 @@ header {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--cerulean);
+  background-color: var(--Goku-orange);
 }
 
 /* ----- Show menu */
@@ -147,7 +147,7 @@ header {
 /* ------------------------------------------- HOME */
 
 .home-title-color {
-  color: var(--blueberry);
+  color: var(--Belladonna);
 }
 
 .home-title {
@@ -156,7 +156,7 @@ header {
 }
 
 .home-title-color {
-  color: var(--cerulean);
+  color: var(--Goku-orange);
 }
 
 /* ----------------------------------------- MarQuee */
@@ -245,7 +245,7 @@ section h2::after {
   display: block;
   width: 64px;
   height: 2px;
-  background-color: var(--cerulean);
+  background-color: var(--Goku-orange);
   margin: 0 auto;
 }
 
@@ -254,14 +254,13 @@ section h2::after {
 
 .topic li {
   display: inline-block;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
-  font-size: 12px;
+  font-size: 15px;
   border-radius: 2em;
   padding-right: 10px;
   padding-left: 10px;
-  line-height: 22px;
-  background-color: var(--cerulean);
+  background-color: var(--Goku-orange);
   margin-right: 10px; /* Da Important code in here */
 }
 
@@ -281,28 +280,9 @@ section h2::after {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
-}
-
-.language li {
-  display: inline-block;
-  padding: 0 7px;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 18px;
-  white-space: nowrap;
-  border: 1px solid transparent;
-  border-radius: 2em;
-  padding-right: 10px;
-  padding-left: 10px;
-  line-height: 22px;
-  background-color: var(--cerulean);
-  border: 1px solid var(--white);
-  margin-right: 10px;
-  margin-bottom: 10px;
   margin-top: 20px;
-
 }
+
 
 /* ------------------------------------------- Back to top Button */
 
@@ -313,32 +293,13 @@ section h2::after {
   right: 20px;
   width: 40px;
   height: 40px;
-  background-color: var(--cerulean);
+  background-color: var(--Goku-orange);
   color: var(--black);
   text-align: center;
   font-size: 26px;
   border-radius: 50%;
   cursor: pointer;
   line-height: 40px; /* Center .... */
-}
-
-/* ------------------------------------------- CV Button */
-
-.div-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cv-button {
-  display: flex;
-  padding: 10px 20px;
-  margin: 10px;
-  border: 0;
-  background-color: var(--cerulean);
-  font-size: 14px;
-  font-weight: 600;
-  transition: background-color 0.1s linear;
 }
 
 /* -------------------------------------------- Footer iConz */
@@ -350,10 +311,6 @@ section h2::after {
   justify-content: center;
 }
 
-.footer-title {
-  margin-bottom: 10px;
-}
-
 .footer-social {
   display: flex;
   justify-content: center;
@@ -361,8 +318,8 @@ section h2::after {
 
 .footer-icon {
   margin: 0 5px;
-  color: var(--blueberry);
-  font-size: 40px;
+  color: var(--Belladonna);
+  font-size: 30px;
 }
 
 .footer-copy {
@@ -381,8 +338,8 @@ section h2::after {
   }
 
   .about__text {
-    border-left: 2px solid var(--cerulean);
-    padding-left: 5px;
+    border-left: 2px solid var(--Goku-orange);
+    padding-left: 10px;
   }
 
   .about-info {
@@ -395,6 +352,7 @@ section h2::after {
     align-items: center;
     text-align: initial;
   }
+
   .home-title {
     text-align: left;
   }
@@ -427,7 +385,7 @@ section h2::after {
     display: none;
   }
   .nav__link {
-    color: var(--blueberry);
+    color: var(--Belladonna);
   }
 
   .about__container {
@@ -462,11 +420,6 @@ section h2::after {
   }
   .home-title{
     font-size: 30px;
-  }
-  .language li {
-    font-size: 19px;
-    line-height: 3;
-    margin-top: 30px;
   }
 
   #work {
